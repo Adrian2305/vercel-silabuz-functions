@@ -7,6 +7,7 @@ export const config = {
 
 export default (req:NextRequest) => {
   return NextResponse.json({
-    message: `Hello World ${req.url}`,
+    message: `Hello David ${req.url}`,
+    ok:true
   });
 };
